@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('ellinor.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; */
+}
+html {
+    height: 100%;
+}
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box-img {
+    border-radius: 75%;
+    /* border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%; */
+    width: 200px;
+    height: 220px;
+}
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.box p {
+    text-align: justify;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a {
+    color: white;
+    text-decoration: none;
+    size: 4px;
+    margin: 0 5px;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover {
+    color: #b9b9b9;
+}
